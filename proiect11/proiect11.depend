@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1673907435 source:d:\9ainfo\oji\codeblocks\firs\proiect11\main.cpp
+	<iostream>
+	<dos.h>
+	"wave.h"
+	"menu.h"
+
+1673907435 d:\9ainfo\oji\codeblocks\firs\proiect11\wave.h
+	<graphics.h>
+	<conio.h>
+	<windows.h>
+	<iostream>
+	<math.h>
+	<dos.h>
+
+1673907743 d:\9ainfo\oji\codeblocks\firs\proiect11\menu.h
+	<iostream>
+	<fstream>
+
