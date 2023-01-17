@@ -8,7 +8,7 @@ using namespace std;
 void Menu()
 {
 
-    cout<<"1.Sinus"<<endl<<"2.Cosinus"<<endl<<"3.Tangenta"<<endl<<"4.Cotangenta"<<endl<<"5.Comparatii"<<endl<<"6.Iesire"<<endl;
+    cout<<"1.Sinus"<<endl<<"2.Cosinus"<<endl<<"3.Tangenta"<<endl<<"4.Cotangenta"<<endl<<"5.Comparatii"<<endl<<"6.Reprezentare puncte"<<endl<<"7.Iesire"<<endl;
     int choice;
     cin>>choice;
     switch (choice)
@@ -25,7 +25,6 @@ void Menu()
     }
     case 2:
     {
-        cout<<"2";
         Window();
         cosinus();
         Close();
@@ -35,7 +34,6 @@ void Menu()
     }
     case 3:
     {
-        cout<<"3";
         Window();
         tangenta();
         Close();
@@ -45,7 +43,6 @@ void Menu()
     }
     case 4:
     {
-        cout<<"4";
         Window();
         cotangenta();
         Close();
@@ -55,28 +52,23 @@ void Menu()
     }
     case 5:
     {
-        cout<<"5";
         system("CLS");
         Menu2();
         system("CLS");
         Menu();
         break;
     }
-    case 7:
+    case 6:
         {
             system("CLS");
             FuncPick();
-            Close;
+            Close();
             system("CLS");
             Menu();
             break;
         }
     default:
     {
-        cout<<"6";
-        Window();
-        SectorLines();
-        Close();
         system("CLS");
         break;
     }

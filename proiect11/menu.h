@@ -64,12 +64,11 @@ void TransformareY(int &y)
 void FuncPick()
 {
     system("CLS");
-    cout<<"Alegeti cel putin 4 valori(x1,y1 si x2,y2) x(-5,15) , y(-10,10) ca sa le reprezentam grafic"<<endl;
-    cout<<"Cate puncte vreti sa reprezentati(trebuie puse 2 valori pt fiecare punct) ?"<<endl;
+    cout<<"Cate puncte vreti sa reprezentati?"<<endl;
     int nrpuncte;
     cin>>nrpuncte;
     system("CLS");
-    cout<<"Introduceti x si y pt cele "<<nrpuncte<<"puncte alese"<<endl;
+    cout<<"Introduceti x(-5,15) si y(-10,10) pt cele "<<nrpuncte<<"puncte alese"<<endl;
     int puncte[nrpuncte*2+1];
     for(int i=1; i<=nrpuncte*2; i++)
         cin>>puncte[i];

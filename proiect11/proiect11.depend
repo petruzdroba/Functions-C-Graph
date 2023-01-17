@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1673907435 source:d:\9ainfo\oji\codeblocks\firs\proiect11\main.cpp
+1673981453 source:d:\9ainfo\oji\codeblocks\firs\proiect11\main.cpp
 	<iostream>
 	<dos.h>
 	"wave.h"
@@ -13,7 +13,7 @@
 	<math.h>
 	<dos.h>
 
-1673907743 d:\9ainfo\oji\codeblocks\firs\proiect11\menu.h
+1673979820 d:\9ainfo\oji\codeblocks\firs\proiect11\menu.h
 	<iostream>
 	<fstream>
 
