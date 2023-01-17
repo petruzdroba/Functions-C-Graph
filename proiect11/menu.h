@@ -95,3 +95,14 @@ void FuncPick()
     }
     delay(100);
 }
+
+void Logo()
+{
+    Window();
+    readimagefile("1.jpg",690,190,1090,540);
+    setcolor(RED);
+    settextstyle( BOLD_FONT, HORIZ_DIR, 10);
+    outtextxy(740,540,"WAVE");
+    delay(3000);
+    closegraph();
+}

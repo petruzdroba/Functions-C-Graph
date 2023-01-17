@@ -77,6 +77,7 @@ void Menu()
 
 int main()
 {
+    Logo();
     Menu();
     return 0;
 }

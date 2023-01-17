@@ -18,7 +18,6 @@ void Window()
     DWORD SW=GetSystemMetrics(SM_CXSCREEN);
     DWORD SH=GetSystemMetrics(SM_CYSCREEN);
     initwindow(SW,SH,"",-3,-3);
-    GuideLines();
 }
 
 void Close()
@@ -29,12 +28,13 @@ void Close()
 
 void SectorLines()
 {
+    GuideLines();
     setcolor(DARKGRAY);
-    for(int i=0;i<=getmaxy();i+=50)
+    for(int i=0; i<=getmaxy(); i+=50)
     {
         line(0,-10+i,getmaxx(),-10+i);
     }
-    for(int i=0;i<=getmaxx();i+=50)
+    for(int i=0; i<=getmaxx(); i+=50)
     {
         line(-10+i,0,-10+i,getmaxy());
     }
@@ -44,6 +44,7 @@ void SectorLines()
 
 void sinus()
 {
+        GuideLines();
     double x, y, px=0,py=0;
     int angle=45;
     for(x=0; x<=getmaxx() && !kbhit(); x+=6)
@@ -65,6 +66,7 @@ void sinus()
 
 void cosinus()
 {
+        GuideLines();
     double x,y, px=0,py=0;
     int angle=45;
     for(x=0; x<=getmaxx()&& !kbhit(); x+=6)
@@ -85,6 +87,7 @@ void cosinus()
 }
 void tangenta()
 {
+        GuideLines();
     double x,y,px, py=getmaxy()/2;
     int angle=90;
     for(x=0; x<=getmaxx()&& !kbhit(); x+=2.5)
@@ -108,6 +111,7 @@ void tangenta()
 
 void cotangenta()
 {
+        GuideLines();
     double x,y,px=0,py=getmaxy()/2;
     int angle=90;
     for(x=0; x<=getmaxx() && !kbhit(); x+=2.5)
