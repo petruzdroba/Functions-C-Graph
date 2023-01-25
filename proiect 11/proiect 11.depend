@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1673426515 source:c:\users\ws31\desktop\11a\proiect 11\main.cpp
+	<graphics.h>
+	<conio.h>
+	<windows.h>
+	<iostream>
+	<math.h>
+	<dos.h>
+	"wave.h"
+
+1673426876 c:\users\ws31\desktop\11a\proiect 11\wave.h
+	<graphics.h>
+	<conio.h>
+	<windows.h>
+	<iostream>
+	<math.h>
+	<dos.h>
+

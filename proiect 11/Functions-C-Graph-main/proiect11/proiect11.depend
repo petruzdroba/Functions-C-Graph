@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1673990005 source:d:\9ainfo\oji\codeblocks\firs\proiect11\main.cpp
+	<iostream>
+	<dos.h>
+	"wave.h"
+	"menu.h"
+
+1673988118 d:\9ainfo\oji\codeblocks\firs\proiect11\wave.h
+	<graphics.h>
+	<conio.h>
+	<windows.h>
+	<iostream>
+	<math.h>
+	<dos.h>
+
+1673990062 d:\9ainfo\oji\codeblocks\firs\proiect11\menu.h
+	<iostream>
+	<fstream>
+
+1673990547 source:c:\users\ws31\desktop\11a\proiect 11\functions-c-graph-main\proiect11\main.cpp
+	<iostream>
+	<dos.h>
+	"wave.h"
+	"menu.h"
+
+1674631905 c:\users\ws31\desktop\11a\proiect 11\functions-c-graph-main\proiect11\wave.h
+	<graphics.h>
+	<conio.h>
+	<windows.h>
+	<iostream>
+	<math.h>
+	<dos.h>
+
+1674631281 c:\users\ws31\desktop\11a\proiect 11\functions-c-graph-main\proiect11\menu.h
+	<iostream>
+	<fstream>
+
